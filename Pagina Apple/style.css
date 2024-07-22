@@ -1,0 +1,539 @@
+@font-face{
+    font-family: 'SF pro Text';
+    src: url(SF-Pro.ttf);
+}
+
+*{
+    font-family:'SF pro text';
+}
+
+nav{
+   background-color: rgba(255, 255, 255, 0.699);
+   padding: 13px 0 13px 0;
+   }
+   
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 0 28px 0 28px;
+}
+
+.icon{
+    width: 18px;
+    height: 20px;
+    background-size: 90% 90%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.manzana{
+    background-image: url(manzana.png);
+}
+
+.lupa{
+    background-image: url(lupa.png);
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.mac{
+    text-align: center;
+    background-image: url(macboock.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px auto;
+    padding-top: 1px;
+    background-color: white;
+}
+
+.t1{
+    font-size: 3.7rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.t2{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+button[type="submit"]{
+    margin-top: none;
+    color: white;
+    background-color: rgb(46, 108, 224);
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 18px;
+    border: none;
+    width: 185px;
+    margin-bottom: 0;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+.iphone .t1, .iphone .t2{
+    color: white;
+}
+
+.iphone{
+    text-align: center;
+    background-image: url(iphone\ 15.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px auto;
+    padding-top: 1px;
+    background-color: black;
+}
+
+.messi .t1, .messi .t2{
+    color: black;
+}
+
+.Messi{
+    text-align: center;
+    background-image: url(messi.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1450px auto;
+    padding-top: 1px;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid white;
+}
+
+.Messi .t2{
+    font-size: 28px;
+    padding-top: 400px;
+}
+
+.botonblack[type="submit"]{
+    margin-top: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 18px;
+    border: none;
+    width: 185px;
+    margin-bottom: 0;
+}
+
+.botonblack[type="submit"]:hover {
+    background-color: #272727;
+  }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    text-align: center;
+}
+
+.grid > div{
+    border: 2px solid white;
+    height: 600px;
+    background-size: cover;
+}
+
+.Priv{
+    background-image: url(señor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 1310px auto;
+}
+
+.Priv .t1{
+    margin: 12px;
+}
+
+.Priv .t2{
+    margin: 28px;
+    color: white;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.boton[type="submit"]{
+    padding: 9px;
+    margin: -10px;
+    font-size: 13px;
+    width: 140px;
+}
+
+.lau{
+    background-image: url(negra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1310px auto;
+}
+
+.lau .t1{
+    color: white;
+    font-size: 43px;
+    margin: -20px;
+    margin-top: 415px;
+}
+
+.lau .t2{
+    color: white;
+    font-size: 22px;
+    margin-top: 80px;
+    margin: 30px;
+}
+
+.aifon15{
+    background-image: url(15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aifon15 .t1{
+    font-size: 43px;
+}
+
+.aifon15 .t2{
+    font-size: 20px;
+}
+
+.watch{
+    background-image: url(Reloj.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.watch .t2{
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.ipad{
+    background-image: url(ipadpro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ipad .t1{
+    color: white;
+    font-size: 37px;
+    margin-top: 55px;
+}
+
+.ipad .t2{
+    color: white;
+    font-size: 19px;
+    margin-top: 3px;
+}
+
+.air{
+    background-image: url(ipadair.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.air .t1{
+    margin-top: 40px;
+}
+
+.air .t2{
+    font-size: 19px;
+    margin-top: -2px;
+}
+
+.air .airboton{
+    background-color: black;
+    padding: 9px;
+    margin: -10px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.air .airboton[type="submit"]:hover{
+    background-color: #272727;
+}
+
+.pocodetexto{
+    color: gray;
+    margin: auto;
+    max-width: 1000px;
+    font-size: 12px;
+}
+
+.P1{
+    display: flex;
+}
+
+.P1 .p2{
+    margin: 8px;
+    margin-top: 19px;
+}
+
+
+footer{
+    font-size: 0.8rem;
+    width: 1000px;
+    margin: auto;
+}
+
+footer .footergrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid rgb(177, 177, 177);
+}
+
+footer .titulo{
+    font-weight: bold;
+}
+ 
+footer a{
+    text-decoration: none;
+    color: grey;
+    display: block;
+    padding: 6px 0 6px 0;
+}
+
+footer ul{
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+footer p a{
+    color: blue;
+}
+
+.footerfinal{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: gray;
+    margin-top: 4px;
+    position: relative;
+    border-top: 1px solid rgb(177, 177, 177);
+    margin: 5px;
+}
+
+.links {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%, -30%);
+    display: flex;
+    height: 10px;
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+
+.links a{
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.footerfinal .links a{
+    padding: 0 10px;
+  color: #000000;
+}
+
+.container{
+    border: 5px solid  white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    background-size: cover;
+}
+
+.slider input{
+    visibility: hidden;
+    display: none;
+}
+
+.buttons{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
+    gap: 25px;
+}
+
+.buttons label{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+    transition:  300ms ease-in-out;
+    border-radius: 50%;
+}
+
+.buttons label:hover{
+    scale: 1.2;
+    opacity: 1;
+}
+
+.slider input:nth-child(1):checked ~ .buttons label:nth-child(1),
+.slider input:nth-child(2):checked ~ .buttons label:nth-child(2),
+.slider input:nth-child(3):checked ~ .buttons label:nth-child(3),
+.slider input:nth-child(4):checked ~ .buttons label:nth-child(4),
+.slider input:nth-child(5):checked ~ .buttons label:nth-child(5),
+.slider input:nth-child(6):checked ~ .buttons label:nth-child(6),
+.slider input:nth-child(7):checked ~ .buttons label:nth-child(7),
+.slider input:nth-child(8):checked ~ .buttons label:nth-child(8),
+.slider input:nth-child(9):checked ~ .buttons label:nth-child(9),
+.slider input:nth-child(10):checked ~ .buttons label:nth-child(10)
+{
+    opacity: 1;
+    scroll-margin: 1.2;
+    width: 40px;
+}
+
+.content{
+    position: relative;
+    width: 1000vw;
+    display: flex;
+    transition: 400ms ease-in-out;
+}
+
+.firstslide,.secondslide,.thirdslide,.Dios,.foto,.foto2,.J,.A,.V,.S{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstslide{
+    background-image: url(la\ mujer\ lago.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.secondslide{
+    background-image: url(sunny.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.thirdslide{
+    background-image: url(tierra\ de\ mujeres.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.Dios{
+    background-image: url(se\ presume.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.foto{
+    background-image: url(pescado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.foto2{
+    background-image: url(acapulco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.J{
+    background-image: url(materia\ oscura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.A{
+    background-image: url(lloron.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.V{
+    background-image: url(godz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.S{
+    background-image: url(ted.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+.slider input:nth-child(1):checked ~ .content{
+    left: 0;
+}
+
+.slider input:nth-child(2):checked ~ .content{
+    left: -100vw;
+}
+
+.slider input:nth-child(3):checked ~ .content{
+    left: -200vw;
+}
+
+.slider input:nth-child(4):checked ~ .content{
+    left: -300vw;
+}
+
+.slider input:nth-child(5):checked ~ .content{
+    left: -400vw;
+}
+
+.slider input:nth-child(6):checked ~ .content{
+    left: -500vw;
+}
+
+.slider input:nth-child(7):checked ~ .content{
+    left: -600vw;
+}
+
+.slider input:nth-child(8):checked ~ .content{
+    left: -700vw;
+}
+
+.slider input:nth-child(9):checked ~ .content{
+    left: -800vw;
+}
+
+.slider input:nth-child(10):checked ~ .content{
+    left: -900vw;
+}
